@@ -1,0 +1,37 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: black solid;
+    padding: 5px;
+}
+input {
+    margin: 5px;
+}
+select {
+    margin: 5px;
+}
+p {
+    text-align: center;
+    border: black solid;
+    margin: 10px;
+}
+button {
+    height: 75px;
+    width: 150px;
+    margin: 20px;
+}
+.result-space {
+    display: table;
+    padding: 10px;
+    border: black solid;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.result-window {
+    border: black solid;
+    margin: 30px;
+    padding: 10px;
+    
+}

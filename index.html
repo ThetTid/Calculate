@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Калькулятор</h1><br>
+    <div class="result-space">
+        <input type="number" id="js-number-a">
+        <select id="js-select-operations">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="js-number-b">
+        <button id="js-result">Результат</button><br>
+        <div class="result-window">
+            Результат: <p id="js-output"></p>
+        </div>
+    </div>
+
+    <script src="math.js"></script>
+    <script src="calculater.js"></script>
+    <script src="result.js"></script>
+</body>
+</html>
